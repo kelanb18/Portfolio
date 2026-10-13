@@ -4,7 +4,7 @@ document.querySelectorAll('.motion-preview').forEach(container => {
  const video = container.querySelector('video');
  const button = container.querySelector('button');
  let visible = false, userPaused = false;
- const sync = () => {button.textContent = video.paused ? 'Play preview' : 'Pause preview';button.setAttribute('aria-label', video.paused ? 'Play article motion preview' : 'Pause article motion preview');};
+ const sync = () => {button.textContent = video.paused ? 'Play preview' : 'Pause preview';button.setAttribute('aria-label', video.paused ? 'Play motion preview' : 'Pause motion preview');};
  const play = () => video.play().catch(sync);
  const reconcile = () => {if (visible && !document.hidden && !preference.matches && !userPaused) play(); else video.pause();};
  video.addEventListener('play',sync);video.addEventListener('pause',sync);
