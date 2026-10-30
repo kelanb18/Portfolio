@@ -30,3 +30,26 @@
 
 /* Original OpenCart captures alongside the current storefront. */
 .store-comparison{margin-top:96px;margin-bottom:88px}.store-comparison .section-head{align-items:start;gap:24px}.comparison-intro{max-width:760px;font-size:18px;line-height:1.7}.comparison-tabs{display:flex;gap:8px;margin:28px 0 36px;flex-wrap:wrap}.comparison-tabs button{font:inherit;border:1px solid #bbb;background:transparent;border-radius:999px;padding:11px 22px;cursor:pointer}.comparison-tabs button[aria-pressed=true]{background:#171717;color:#fff;border-color:#171717}.comparison-tabs button:focus-visible{outline:3px solid #234deb;outline-offset:4px}.comparison-panel h3{font-size:clamp(24px,3vw,36px);font-weight:500;letter-spacing:-.035em;margin:0 0 14px}.comparison-panel>p{max-width:760px;line-height:1.75;margin-bottom:28px}.comparison-pair{display:grid;grid-template-columns:1fr 1fr;gap:24px;align-items:start}.comparison-pair figure{margin:0;min-width:0}.comparison-pair figcaption{display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between;padding:14px 0;border-top:1px solid #aaa;font-size:12px}.comparison-pair figcaption strong{font-size:15px;color:#171717}.comparison-pair img{display:block;width:100%;height:auto;border:1px solid #ddd}.comparison-pair a{display:block}.comparison-note{font-size:12px;line-height:1.7;color:#666;margin-top:24px}.comparison-panel[hidden]{display:none}@media(max-width:700px){.store-comparison{margin-top:60px}.comparison-pair{grid-template-columns:1fr;gap:30px}.store-comparison .section-head{display:block}.store-comparison .section-head .eyebrow{display:block;margin-top:12px}}
+
+.motion-preview--brand{padding:0;background:#eceae6}.motion-preview--brand video{aspect-ratio:36/25;object-fit:contain}.motion-preview--brand .motion-toggle{right:12px}.brand-demo{margin-top:30px;margin-bottom:60px}.brand-capture-caption{font-size:12px;line-height:1.7;color:#666;margin:14px 0 28px;max-width:900px}.brand-demo-heading{font-size:clamp(24px,3vw,38px);font-weight:500;letter-spacing:-.035em;margin-bottom:25px}
+
+/* Keep previews and their explanation in the same view. */
+#work>article,.personal-projects>article{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:18px 40px;align-items:start;margin-bottom:44px}
+#work>article>.section-head{grid-column:1/-1;padding-bottom:14px}
+#work>article>.feature-visual,#work>article>.motion-preview,.personal-projects>article>.feature-visual{grid-column:1;grid-row:span 2}
+#work>article>.feature-title,.personal-projects>article>.feature-title{grid-column:2;display:block;margin:0}
+#work>article>.feature-title p,.personal-projects>article>.feature-title p{margin-top:14px}
+#work>article>.feature-links,.personal-projects>article>.feature-links{grid-column:2;margin:0;gap:16px}
+.feature-title h3{font-size:clamp(25px,2.5vw,35px)}
+.feature-visual{padding:12px;max-width:760px}.feature-visual img{max-height:360px;object-fit:cover;object-position:top;transform:none}
+#work .feature-visual img,.personal-projects .feature-visual img{height:300px}
+.motion-preview{max-width:720px;padding:0}.motion-preview video{max-height:360px;object-fit:contain}.motion-toggle{right:12px;bottom:12px}
+.project .motion-preview video{max-height:260px}.tile-media{height:260px}
+.case-copy figure img{max-height:340px;object-fit:contain;object-position:top;background:#ecece7}
+.case-gallery img,.case-gallery a:only-child img{height:260px;max-height:260px;object-fit:contain}
+.brand-demo{margin-top:0;margin-bottom:32px}.brand-capture-caption{max-width:720px}
+.network-thumb{max-height:220px;object-fit:contain;object-position:left}
+.comparison-pair a{height:330px;overflow:auto;border:1px solid var(--line);background:#fff}.comparison-pair img{border:0}
+.media-expand{display:inline-block;font-size:12px;text-decoration:underline;text-underline-offset:4px;margin:10px 0 4px;color:var(--muted)}
+.siena-quote{border-left:3px solid var(--blue);padding:8px 0 8px 24px;margin:30px 0}.siena-quote blockquote{margin:12px 0;font-size:22px;line-height:1.55;letter-spacing:-.02em}.siena-quote figcaption{font-family:inherit;font-size:13px}
+@media(max-width:800px){#work>article,.personal-projects>article{grid-template-columns:1fr;gap:16px;margin-bottom:36px}#work>article>.feature-visual,#work>article>.motion-preview,.personal-projects>article>.feature-visual{grid-row:auto}#work>article>.feature-title,#work>article>.feature-links,.personal-projects>article>.feature-title,.personal-projects>article>.feature-links{grid-column:1}#work>article>.feature-title,.personal-projects>article>.feature-title{grid-row:2}#work>article:not(:has(>.section-head))>.feature-title,.personal-projects>article>.feature-title{grid-row:1}.motion-preview video{max-height:280px}#work .feature-visual img,.personal-projects .feature-visual img{height:230px}.comparison-pair a{height:280px}.case-copy figure img{max-height:280px}}
